@@ -1,0 +1,58 @@
+[
+  {
+    "caption": "Preguntas Frecuentes",
+    "modules": "['chatbot']",
+    "icon": "bx bxs-file-find",
+    "routes": [
+      {
+        "name": "questions_list",
+        "module": "chatbot",
+        "caption": "Preguntas",
+        "icon": "",
+        "path": "/chatbot/questions_list"
+      },
+      {
+        "name": "answers_list",
+        "module": "chatbot",
+        "caption": "Respuestas",
+        "icon": "",
+        "path": "/chatbot/answers_list"
+      }
+    ]
+  },
+  {
+    "caption": "Administración",
+    "modules": "['admin']",
+    "icon": "bx bxs-angry",
+    "routes": [
+      {
+        "name": "sections_list",
+        "module": "admin",
+        "caption": "Secciones",
+        "icon": "",
+        "path": "/admin/sections_list"
+      }
+    ]
+  },
+  {
+    "caption": "Seguridad",
+    "modules": "['auth']",
+    "icon": "bx bx-pyramid",
+    "routes": [
+      {
+        "name": "roles_list",
+        "module": "auth",
+        "caption": "Roles",
+        "icon": "",
+        "path": "/auth/roles_list"
+      },
+      {
+        "name": "users_list",
+        "module": "auth",
+        "caption": "Usuarios",
+        "icon": "",
+        "path": "/auth/users_list"
+      }
+    ]
+  }
+]

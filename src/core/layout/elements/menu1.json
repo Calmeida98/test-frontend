@@ -1,0 +1,128 @@
+[
+  {
+    "caption": "Nomencladores",
+    "modules": "['nomenclature']",
+    "icon": "bx bxs-file-find",
+    "routes": [
+      {
+        "name": "categories_list",
+        "module": "nomenclature",
+        "caption": "Categorías",
+        "icon": "",
+        "path": "/nomenclature/categories_list"
+      },
+      {
+        "name": "color_list",
+        "module": "nomenclature",
+        "caption": "Color",
+        "icon": "",
+        "path": "/nomenclature/color_list"
+      },
+      {
+        "name": "fabric_list",
+        "module": "nomenclature",
+        "caption": "Tela",
+        "icon": "",
+        "path": "/nomenclature/fabric_list"
+      },
+      {
+        "name": "model_list",
+        "module": "nomenclature",
+        "caption": "Modelo",
+        "icon": "",
+        "path": "/nomenclature/model_list"
+      },
+      {
+        "name": "status_list",
+        "module": "nomenclature",
+        "caption": "Estado",
+        "icon": "",
+        "path": "/nomenclature/status_list"
+      }
+    ]
+  },
+  {
+    "caption": "Administración",
+    "modules": "['administration']",
+    "icon": "bx bxs-angry",
+    "routes": [
+      {
+        "name": "banner_list",
+        "module": "administration",
+        "caption": "Banners",
+        "icon": "",
+        "path": "/administration/banner_list"
+      },
+      {
+        "name": "product_in_list",
+        "module": "administration",
+        "caption": "Entrada de Productos",
+        "icon": "",
+        "path": "/administration/product_in_list"
+      },
+      {
+        "name": "product_wharehouse_list",
+        "module": "administration",
+        "caption": "Producto Almacen",
+        "icon": "",
+        "path": "/administration/product_wharehouse_list"
+      },
+      {
+        "name": "producto_list",
+        "module": "administration",
+        "caption": "Productos",
+        "icon": "",
+        "path": "/administration/producto_list"
+      }
+    ]
+  },
+  {
+    "caption": "Seguridad",
+    "modules": "['security']",
+    "icon": "bx bx-pyramid",
+    "routes": [
+      {
+        "name": "roles_list",
+        "module": "security",
+        "caption": "Roles",
+        "icon": "",
+        "path": "/security/roles_list"
+      },
+      {
+        "name": "users_list",
+        "module": "security",
+        "caption": "Usuarios",
+        "icon": "",
+        "path": "/security/users_list"
+      }
+    ]
+  },
+  {
+    "caption": "Ventas",
+    "modules": "['sales']",
+    "icon": "bx bx-run",
+    "routes": [
+      {
+        "name": "request_order_list",
+        "module": "sales",
+        "caption": "Ordenes",
+        "icon": "",
+        "path": "/sales/request_order_list"
+      },
+      {
+        "name": "sales_list",
+        "module": "sales",
+        "caption": "Ventas",
+        "icon": "",
+        "path": "/sales/sales_list"
+      },
+      {
+        "name": "sales_request_order_list",
+        "module": "sales",
+        "caption": "Ventas y Ordenes",
+        "icon": "",
+        "path": "/sales/sales_request_order_list"
+      }
+    ]
+  }
+]
